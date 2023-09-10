@@ -1,3 +1,53 @@
+/* Con esto eliminamos los margenes que el
+navegador agrega a nuestros elementos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #4a465b;
+}
+
+.contenedor {
+    width: 1000px;
+    margin: 20px;
+}
+
+header {
+    background: #fff;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none; /* Para quitarle los puntitos a la lista */
+}
+
+header nav ul li {
+    float: left;
+    /* display: inline-block; */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Esto es para quitar el renglon, para que no este subrayado  */
+    display: inline-block;
+    padding: 15px 20px;
+    color: #000;
+}
+
+header nav ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
 
 
 
