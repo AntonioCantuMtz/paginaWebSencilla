@@ -13,7 +13,8 @@ body {
 }
 
 .contenedor {
-    width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     margin: 20px auto; /*20px arriba y abajo, y a los lados ponemos auto para que se centre el contenedor*/
     overflow: hidden; /*Para evitar errores con el float y los demas elementos que van afuera*/
 }
@@ -50,7 +51,7 @@ header nav ul li a:hover {
 }
 
 .main {
-    width: 700px; /*Esto es el ancho del espacio del contenedor*/
+    width: 70%; /*Esto es el ancho del espacio del contenedor*/
     background: #fff;
     float: left; /*Para tener un elemento al lado del otro (en este caso un contenedor al lado de otro)*/
 }
@@ -81,7 +82,7 @@ header nav ul li a:hover {
 }
 
 aside {
-    width: 300px;
+    width: 30%;
     background: #161f26;
     padding: 20px;
     color: #fff;
@@ -121,7 +122,7 @@ aside .widget p {
 }
 
 footer {
-    width: 700px;
+    width: 70%;
     overflow: hidden; /*Para que el footer empieze en una nueva linea*/
     background: #000;
     color: #fff;
