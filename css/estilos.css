@@ -130,4 +130,18 @@ footer {
     text-align: center;
 }
 
+/* Mediaqueries */
+@media screen and (max-width: 800px){
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
 
